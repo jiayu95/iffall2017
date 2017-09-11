@@ -1,0 +1,12 @@
+dt {
+	text-transform: uppercase;
+}
+
+div {
+	width: 800px;
+	margin-left: 200px;
+	text-align: left;
+}
+h1 {
+	color: blue;
+}
