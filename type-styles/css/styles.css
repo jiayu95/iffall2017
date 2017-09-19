@@ -1,0 +1,42 @@
+body {
+	font-family: 'Crimson Text', serif;
+	font-size:16px;
+}
+
+h2 {
+	font-family: Arial;
+	margin-top: 40px:;
+	margin-bottom: 30px;
+}
+
+h3 {
+	font-family: Arial;
+	font-size: 14px;
+	color: grey;
+	line-height:0px;
+	margin-top:-5px;
+}
+
+span.widetrack {
+	letter-spacing: .3em;
+}
+
+span.smalltrack {
+	letter-spacing: -.06em;
+}
+
+span.overline {
+	text-decoration: overline;
+}
+
+span.uppercase {
+	text-transform: uppercase;
+}
+
+span.lowercase {
+	text-transform: lowercase;
+}
+
+span.capitalize {
+	text-transform: capitalize;
+}
