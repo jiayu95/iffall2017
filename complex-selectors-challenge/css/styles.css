@@ -1,0 +1,63 @@
+/* !!! Make absolute path link secure "https://" on HTML when I'm done with everything */
+
+header {
+	margin-bottom: 3rem;
+}
+
+p {
+	line-height: 1.6
+}
+
+a.see-all {
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+.shows h1 {
+	font-size: 2.5rem;
+}
+
+section h2 { /* 5 and 6 */
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.cast img {
+	width: 100%;
+}
+
+.cast li {
+	width: 25%;
+	font-size: 0.8rem;
+}
+
+
+.shows > li {	/* can also do by ID: li#game-of-thrones, li#umbreakable-kimmy-schmidt {} */
+	border-top: 1px solid black;
+}
+
+nav .selected {
+	font-weight: 700;
+	color: black;
+}
+
+
+section.cast a div {
+	font-weight: 700;
+}
+
+section.cast a div:last-child {
+	font-weight: normal;
+	font-style: italic;
+}
+
+section.seasons li:last-child:after {
+	content: "*";
+}
+
+section.seasons:after {
+	content: "* In production";
+	font-size: 0.7rem;
+	color: #999;
+}
