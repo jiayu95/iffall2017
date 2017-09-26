@@ -1,0 +1,23 @@
+body {
+	text-align:center;
+	background-color: #e6b3e6;
+	font-family: 'Open Sans', sans-serif;
+	color:  white;
+	font-size:14px;
+	font-weight:300;
+
+}
+
+h1 {
+	font-family: 'Codystar', cursive;
+	color:white;
+	font-size:320%;
+}
+
+span.reg {
+	font-weight: 400;
+}
+
+body {
+    background-image: url("http://thesuperslice.com/wp-content/uploads/2012/07/artworks-000026781630-mfg9k1-original.jpg");
+}
