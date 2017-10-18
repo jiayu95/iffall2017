@@ -1,0 +1,144 @@
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	margin-top:0;
+	margin-bottom:.5em;
+} 
+
+section#top_section {
+	height:480px;
+	box-sizing:border-box;
+	text-align: center;
+	background-image:url(http://wallpaper.pickywallpapers.com/1920x1080/shiba-inu.jpg);
+	background-size: cover;
+}
+
+h1 {
+	font-size:80px;
+	padding-top:155px;
+	margin-bottom:2px;
+	color:black;
+}
+
+h2 {
+	font-size:30px;
+	color:black;
+}
+
+div.column_container {
+	width:960px;
+	margin:auto;
+}
+
+/*************************** SECTION 2 ******************************/
+
+#section2 {
+	height:646px;
+	box-sizing:border-box;
+	background-color:#ffe6f2;
+}
+
+#section2 h3,
+#section3 h3,
+#section4 h3 {
+	text-align:center;
+	font-size:40px;
+	padding-top:42px;
+	padding-bottom:12px;
+}
+
+#section2 p {
+	margin-bottom:16px;
+	line-height:1.2;
+	font-size:18px;
+}
+
+.floatingimage2 {
+	float:right;
+	width:400px;
+	height:300px;
+	margin: 0 0px 30px 40px;
+}
+
+/*************************** SECTION 3 ******************************/
+
+#section3 {
+	background-color:rgba(255,0,0,.25);
+	height:679px;
+	box-sizing:border-box;
+	background-color:#ffcce6;
+}
+
+.photo_item {
+/*	background-color:rgba(0,0,255,0.5);*/
+	width:50%;
+	height:150px;
+	display:inline-block;
+	margin-bottom:24px;
+	padding-right:25px;
+	box-sizing:border-box;
+}
+
+.photo_item img {
+	width:200px;
+	height:150px;
+	float:left;
+	margin-right:12px;
+}
+
+.photo_item p {
+	margin:0;
+	font-size:18px;
+	line-height:1.15;
+}
+
+h4 {
+	font-size:21px;
+	line-height:1;
+	padding-top:4px;
+}
+
+/*************************** SECTION 3 ******************************/
+
+#section4 {
+	background-color: #ffb3d9;
+	height:412px;
+}
+
+#section4 p {
+	font-size:27px;
+	text-align:center;
+	margin-top:10px;
+	width: 75%;
+	line-height:1.15;
+	box-sizing:border-box;
+	margin:auto;
+	margin-bottom:0;
+}
+
+/*************************** FOOTER ******************************/
+
+#footer {
+	background-color:#ff80bf;
+	height:100px;
+}
+
+#footer p {
+	font-size:18px;
+	margin-top:0px;
+	padding-top:39px;
+	margin-left:0px;
+	display:inline-block;
+}
+
+.fa {
+	float:right;
+	box-sizing: border-box;
+	padding-top:36px;
+	font-size:2em;
+	padding-right:3px;
+}
