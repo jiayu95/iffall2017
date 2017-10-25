@@ -7,8 +7,13 @@ body {
 
 }
 
+#container {
+	width:360px;
+	margin:auto;
+}
+
 h1, h2, body p {
-	padding-left:36%;
+	/**padding-left:36%;**/
 }
 
 h1 {
