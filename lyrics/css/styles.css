@@ -1,0 +1,33 @@
+body {
+	background-image:url("../image/bg-img.jpg");
+	background-size: cover;
+
+	background-attachment:fixed;
+	font-family:futura;
+	color:white;
+	text-align:left;
+	padding-left:36%;
+	padding-top:130px;
+
+}
+
+h1 {
+	font-family:futura;
+	font-weight: 200;
+	font-size: 3.3em;
+	letter-spacing:10px;
+}
+
+h2 {
+	font-family:futura;
+	font-weight: 200;
+	font-style:italic;
+	font-size:1.4em;
+	padding-bottom:160px;
+
+}
+
+body p {
+	font-size: 0.9em;
+	padding-bottom:80px;
+}
