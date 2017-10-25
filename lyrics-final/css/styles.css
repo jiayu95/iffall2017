@@ -1,0 +1,135 @@
+body {
+	background-image:url("../image/bg-img.jpg");
+	background-size: cover;
+	font-family:futura;
+	color:white;
+	text-align:left;
+
+}
+
+h1, h2, body p {
+	padding-left:36%;
+}
+
+h1 {
+	padding-top:130px;
+	font-family:futura;
+	font-weight: 200;
+	font-size: 3.3em;
+	letter-spacing:10px;
+}
+
+h2 {
+	font-family:futura;
+	font-weight: 200;
+	font-style:italic;
+	font-size:1.4em;
+	padding-bottom:160px;
+
+}
+
+body p {
+	font-size: 0.9em;
+	padding-bottom:80px;
+}
+
+#circle0 {
+	width: 40px;
+	height: 40px;
+	background-color:rgba(255, 128, 170, 0.35);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	top: 35px;
+	left:100px;
+	position:fixed;
+}
+
+#circle1 {
+	width: 70px;
+	height: 70px;
+	background-color:rgba(255,153,187,0.6);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	top: 190px;
+	left:270px;
+	position:fixed;
+}
+
+#circle2 {
+	width: 110px;
+	height: 110px;
+	background-color:rgba(255,153,187,0.3);
+	-moz-border-radius: 60px;
+	-webkit-border-radius: 60px;
+	border-radius: 60px;
+	top: 400px;
+	left:300px;
+	position:fixed;
+}
+
+#circle3 {
+	width: 60px;
+	height: 60px;
+	background-color:rgba(255, 179, 204,0.3);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	top: 520px;
+	left:180px;
+	position:fixed;
+}
+
+#circle4 {
+	width: 80px;
+	height: 80px;
+	background-color:rgba(255, 102, 153, 0.3);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	top: 40px;
+	right:220px;
+	position:fixed;
+}
+
+#circle5 {
+	width: 125px;
+	height: 125px;
+	background-color:rgba(255,153,187,0.4);
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	top: 300px;
+	right:320px;
+	position:fixed;
+}
+
+#circle6 {
+	width: 50px;
+	height: 50px;
+	background-color:rgba(255,153,187,0.52);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	top: 400px;
+	right:320px;
+	position:fixed;
+}
+
+#circle7 {
+	width: 50px;
+	height: 50px;
+	background-color:rgba(255, 179, 204,0.4);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	top: 520px;
+	right:210px;
+	position:fixed;
+}
+
+
+
+
+
