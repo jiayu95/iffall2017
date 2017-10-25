@@ -3,7 +3,7 @@ body {
 	background-size: cover;
 
 	background-attachment:fixed;
-	font-family:futura;
+	font-family:futura-pt, sans-serif;
 	color:white;
 	text-align:left;
 	padding-left:36%;
@@ -12,14 +12,14 @@ body {
 }
 
 h1 {
-	font-family:futura;
+	font-family:futura-pt, sans-serif;
 	font-weight: 200;
 	font-size: 3.3em;
 	letter-spacing:10px;
 }
 
 h2 {
-	font-family:futura;
+	font-family:futura-pt, sans-serif;
 	font-weight: 200;
 	font-style:italic;
 	font-size:1.4em;
