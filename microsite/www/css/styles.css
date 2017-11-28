@@ -1,0 +1,70 @@
+body {
+	font-family: "filosofia";
+	background-image:url("../images/home-bg.jpg");
+	background-size:cover;
+}
+
+/************** NAVIGATION **************/
+
+#header {
+	background-color:rgba(237,224,210,0.5);
+	height:70px;
+	width:100%;
+	font-family: "pt-sans";
+	box-sizing: border-box;
+	margin:0 auto;
+	font-size:17px;
+	padding-left:30px;
+}
+
+
+#header p {
+	display:inline-block;
+	font-family: "filosofia";
+	font-size:22px;
+}
+
+#nav {
+	text-align:center;
+	margin:-45px;
+}
+
+#nav li {
+	display:inline;
+}
+
+#nav a {
+	text-decoration:none;
+	padding:40px;
+	color:rgb(117,109,106);
+}
+
+#nav a:hover {	
+	color:rgb(15,16,17);
+}
+
+/************** COPY **************/
+
+div {
+	font-family: "filosofia";
+	text-align:center;
+	margin:0 auto;
+}
+
+h1 {
+	font-size:80px;
+	font-weight:300;
+	color:#211f1d;
+	padding-top:5%;
+}
+
+h2 {
+	font-size:35px;
+	font-style:italic;
+	font-weight:300;
+	color:#fff7ef;
+	padding-top:2%;
+}
+
+
+
