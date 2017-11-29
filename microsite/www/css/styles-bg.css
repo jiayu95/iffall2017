@@ -1,8 +1,6 @@
 body {
-	font-family: "filosofia";
-	background-image:url("../images/home-bg.jpg");
+	background-image:url("../images/bg-bg.jpg");
 	background-size:cover;
-	margin:0;
 }
 
 /************** NAVIGATION **************/
@@ -47,25 +45,22 @@ body {
 /************** COPY **************/
 
 div {
-	font-family: "filosofia";
-	text-align:center;
-	margin:0 auto;
+	width:40%;
+	margin:auto;
+	margin-top:60px;
 }
 
 h1 {
-	font-size:80px;
+	font-family:"filosofia";
+	font-size:50px;
 	font-weight:300;
 	color:#211f1d;
-	padding-top:5%;
 }
 
-h2 {
-	font-size:35px;
-	font-style:italic;
-	font-weight:300;
-	color:#fff7ef;
-	padding-top:2%;
+p {
+	font-family:"pt-sans";
+	font-size:15px;
+	color:#211f1d;
 }
-
 
 
