@@ -1,0 +1,137 @@
+body {
+	background-image:url("../images/bg-bg-usethis.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin:0;
+	height:1150px;
+}
+
+/************** NAVIGATION **************/
+
+#header {
+	background-color:rgba(237,224,210,0.4);
+	height:70px;
+	width:100%;
+	font-family: "pt-sans";
+	box-sizing: border-box;
+	margin:0 auto;
+	font-size:17px;
+	padding-left:30px;
+}
+
+
+#header p {
+	display:inline-block;
+	font-family: "filosofia";
+	font-size:22px;
+}
+
+#header a {
+	text-decoration: none;
+	color:rgb(15,16,17);
+}
+
+#header #nav {
+	text-align:center;
+	margin:0 auto;
+	display:inline;
+	position:relative;
+	padding-left:16%;
+}
+
+#nav li {
+	padding-right:80px;
+	display:inline;
+}
+
+#nav a {
+	text-decoration:none;
+	color:rgb(117,109,106);
+}
+
+#nav a:hover {	
+	color:rgb(15,16,17);
+}
+
+/************** COPY **************/
+
+div {
+	width:500px;
+	margin:auto;
+	margin-top:60px;
+	position:center;
+}
+
+h1 {
+	font-family:"filosofia";
+	font-size:50px;
+	font-weight:300;
+	color:#211f1d;
+}
+
+p {
+	font-family:"pt-sans";
+	font-size:15px;
+	color:#211f1d;
+}
+
+/************** RESPONSIVE **************/
+
+@media screen and (max-width:900px) {
+	#header #nav {
+		padding-left:8%;
+	}
+
+	#nav li {
+			padding-right:50px;
+		}
+}
+
+@media screen and (max-width:760px) {
+	#nav li {
+			padding-right:30px;
+		}
+
+	#header #nav {
+		font-size:15px;
+		padding-left:10%;
+	}
+
+	div {
+		width:400px;
+	}
+
+	p {
+		font-size:13px;
+	}
+}
+
+@media screen and (max-width:650px) {
+	#header {
+		height:100px;
+	}
+
+	#header #nav {
+		display:block;
+		padding-left:0px;
+		margin-top:-5px;
+		text-align:left;
+	}
+}
+
+@media screen and (max-width:510px) {
+	div {
+		width:300px;
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+
+	body {
+		height:1350px;
+	}
+}
+
+
