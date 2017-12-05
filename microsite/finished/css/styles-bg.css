@@ -17,7 +17,6 @@ body {
 	box-sizing: border-box;
 	margin:0 auto;
 	font-size:17px;
-	padding-left:30px;
 }
 
 
@@ -25,6 +24,8 @@ body {
 	display:inline-block;
 	font-family: "filosofia";
 	font-size:22px;
+	position: absolute;
+	padding-left: 30px;
 }
 
 #header a {
@@ -32,16 +33,14 @@ body {
 	color:rgb(15,16,17);
 }
 
-#header #nav {
-	text-align:center;
+#nav {
+	text-align: center;
+	padding: 23px 0 0 0;
 	margin:0 auto;
-	display:inline;
-	position:relative;
-	padding-left:16%;
 }
 
 #nav li {
-	padding-right:80px;
+	padding: 0 50px 0 50px;
 	display:inline;
 }
 
@@ -53,6 +52,7 @@ body {
 #nav a:hover {	
 	color:rgb(15,16,17);
 }
+
 
 /************** COPY **************/
 
@@ -80,31 +80,12 @@ p {
 
 @media screen and (max-width:900px) {
 	#header #nav {
-		padding-left:8%;
-	}
-
-	#nav li {
-			padding-right:50px;
-		}
-}
-
-@media screen and (max-width:760px) {
-	#nav li {
-			padding-right:30px;
+			text-align:right;
 		}
 
-	#header #nav {
-		font-size:15px;
-		padding-left:10%;
-	}
-
-	div {
-		width:400px;
-	}
-
-	p {
-		font-size:13px;
-	}
+	#nav li {
+			padding: 0 25px 0 25px;
+		}
 }
 
 @media screen and (max-width:650px) {
@@ -113,10 +94,14 @@ p {
 	}
 
 	#header #nav {
-		display:block;
-		padding-left:0px;
-		margin-top:-5px;
+		padding: 65px 0 0 0;
 		text-align:left;
+		font-size:15px;
+		padding-left:10px;
+	}
+
+	#nav li {
+		padding: 0 20px 0 20px;
 	}
 }
 
