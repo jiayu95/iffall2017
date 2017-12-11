@@ -1,0 +1,30 @@
+body {
+	font-family: avenir;
+	text-align: center;
+}
+
+h1 {
+	padding-top:40px;
+	font-size:50px;
+	font-weight:600;
+}
+
+h2 {
+	font-size:20px;
+	font-weight:500;
+	padding-bottom:50px;
+}
+
+p {
+	font-size:16px;
+	font-weight:400;
+}
+
+a {
+	color:black;
+	text-decoration: none;
+}
+
+a:hover {
+	color:grey;
+}
